@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: regencielightalt;
+    src: url(regencielightalt.ttf);
+}
+
+* {
+    font-family: regencielightalt;
+}
+
+hr.style-five {
+    width: 90%;
+    border-top: 3px solid #7d97ad;
+}
+
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+.title {
+    text-align: right;
+}
+
+.featuredwork {
+    width: 100%;
+    margin-top: 30px;
+    color: #7d97ad;
+}
+
+.container {
+    text-align: center;
+}
+
+.codeimg {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movieimg {
+    height: 200px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
