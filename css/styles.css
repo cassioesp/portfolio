@@ -1,19 +1,14 @@
-
-@font-face {
-    font-family: regencielightalt;
-    src: url(regencielightalt.ttf);
-}
-
 * {
-    font-family: regencielightalt;
+    font-family: 'Raleway', sans-serif;
+    color: #2d3c49;
 }
 
-hr.style-five {
-    width: 90%;
+hr.style-hr {
+    width: 75%;
     border-top: 3px solid #7d97ad;
 }
 
-hr.style-five:after {  /* Not really supposed to work, but does */
+hr.style-hr:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
 }
 
@@ -23,12 +18,8 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 
 .featuredwork {
     width: 100%;
-    margin-top: 30px;
+    margin: 30px;
     color: #7d97ad;
-}
-
-.container {
-    text-align: center;
 }
 
 .codeimg {
@@ -38,12 +29,25 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     margin-right: auto;
 }
 
+.projects {
+    text-align: center;
+    margin: 100px;
+}
+
 .movieimg {
     height: 200px;
     max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.rwd-break {
+    display: inline-block;
+}
+
+@media screen and (min-width: 1200px){
+    .rwd-break { display: none; }
 }
 
 
